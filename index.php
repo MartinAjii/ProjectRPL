@@ -11,10 +11,6 @@
                     <input type="password" id="inputUsm" class="form-control" placeholder="Masukkan username">
                 <label for="inputPw" class="form-label">Password</label>
                     <input type="password" id="inputPw" class="form-control" placeholder="Masukkan password">
-                <label for="inputUsm" class="form-label">Username</label>
-                    <input type="password" id="inputUsm" class="form-control" placeholder="Masukkan username">
-                <label for="inputPw" class="form-label">Password</label>
-                    <input type="password" id="inputPw" class="form-control" placeholder="Masukkan password">
             </div>
         </div>
     </body>
