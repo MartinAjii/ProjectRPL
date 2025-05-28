@@ -23,6 +23,15 @@ if (isset($_POST['login'])) {
             header("Location: siswamenu.php");
             exit();
         } else if ($data['role'] == "guru") {
+            $id_akun = $data['id'];
+            $usm = $data['usm'];
+            $pass = $data['pass'];
+
+            $cekGuru = mysqli_query($conn, "SELECT * FROM guru WHERE usm_guru = '$usm'");
+            if (mysqli_num_rows($cekGuru) == 0) {
+                mysqli_query($conn, "INSERT INTO guru (usm_guru, pw_guru, id_akun) VALUES ('$usm', '$pass', '$id_akun')");
+            }
+
             header("Location: gurumenu.php");
             exit();
         } else {
