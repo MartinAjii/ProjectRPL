@@ -1,0 +1,46 @@
+body{
+    background-color: #AEEEEE;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    width: 550px;
+    height: 800px;
+    justify-content: space-between;
+}
+.mainlogo{
+    padding-top: 70px;
+    padding-bottom: 90px;
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    align-self: center;
+}
+.navbar{
+    background-color: #AEEEEE;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    display: flex;
+    align-self: center;
+    margin-top: auto;
+}
+.logo{
+    width:32px; 
+    height:32px;
+}
+.btn{
+    margin-top: auto;
+}
+.pflogo{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width:35px; 
+    height:35px;
+}
