@@ -7,6 +7,10 @@ if (isset($_SESSION['inputUsm'])) {
     if ($_SESSION['role'] === 'operator') {
         header("Location: operatormenu.php");
         exit();
+    }
+    if ($_SESSION['role'] === 'guru') {
+        header("Location: gurumenu.php");
+        exit();
     } else if ($_SESSION['role'] === 'siswa') {
         header("Location: siswamenu.php");
         exit();

@@ -39,7 +39,7 @@ if (mysqli_num_rows($query) > 0) {
             <a class="profile" href="profilguru.php">
                 <img src="logo.png" alt="Logo" class="pflogo">
             </a>
-            <img src="logo.png" alt="Logo" class="mainlogo">
+            <img src="asset/logo.png" alt="Logo" class="mainlogo">
             <?php if ($data_guru): ?>
             <p><strong>Nama:</strong> <?= $data_guru['nama_guru']?></p>
             <p><strong>NIP:</strong> <?= $data_guru['nip_guru']?></p>
