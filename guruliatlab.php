@@ -19,7 +19,7 @@ if (!isset($_SESSION['inputUsm'])) {
     <div class="container col-lg-4 mt-5">
         <div class="card mb-3">
             <a class="profile" href="profilguru.php">
-                <img src="logo.png" alt="Logo" class="pflogo">
+                <img src="asset/layerpf.png" alt="Logo" class="pflogo">
             </a>
             <nav class="navbar sticky-bottom navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">

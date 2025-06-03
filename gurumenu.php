@@ -37,7 +37,7 @@ if (mysqli_num_rows($query) > 0) {
     <div class="container col-lg-4 mt-5">
         <div class="card mb-3">
             <a class="profile" href="profilguru.php">
-                <img src="logo.png" alt="Logo" class="pflogo">
+                <img src="asset/layerpf.png" alt="Logo" class="pflogo">
             </a>
             <img src="asset/logo.png" alt="Logo" class="mainlogo">
             <?php if ($data_guru): ?>

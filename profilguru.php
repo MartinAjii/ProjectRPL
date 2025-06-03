@@ -30,14 +30,14 @@ if (mysqli_num_rows($query) > 0) {
 <html lang="en">
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="guru/gurumenu.css">
+    <link rel="stylesheet" href="gurumenu.css">
     <title>Menu Guru</title>
 </head>
 <body>
     <div class="container col-lg-4 mt-5">
         <div class="card mb-3">
             <a class="profile" href="gurumenu.php">
-                <img src="logo.png" alt="Logo" class="pflogo">
+                <img src="asset/layerpf.png" alt="Logo" class="pflogo">
             </a>
             <h2>Detail Pengguna</h2>
             <?php if ($data_guru): ?>
@@ -47,7 +47,8 @@ if (mysqli_num_rows($query) > 0) {
             <p><strong>Username:</strong> <?= $data_guru['usm_guru']?></p>
             <p><strong>NIP:</strong> <?= $data_guru['nip_guru']?></p>
             <?php endif; ?>
-            <a href="/Project_RPL/proses.php?logout=true" class="btn btn-danger">Logout</a>
+            <a href="edit_profilguru.php" class="btn btn-primary mb-2">Edit Profil</a>
+            <a href="proses.php?logout=true" class="btn btn-danger">Logout</a>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
